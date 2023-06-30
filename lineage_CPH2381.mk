@@ -14,20 +14,20 @@ $(call inherit-product, device/oneplus/lemonade/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonade
-PRODUCT_DEVICE := lemonade
+PRODUCT_NAME := lineage_CPH2381
+PRODUCT_DEVICE := CPH2381
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := LE2115
+PRODUCT_MODEL := OP535DL1
 
-PRODUCT_SYSTEM_NAME := OnePlus9
-PRODUCT_SYSTEM_DEVICE := OnePlus9
+PRODUCT_SYSTEM_NAME := OnePlus Nord CE2 Lite 5G
+PRODUCT_SYSTEM_DEVICE := OnePlus Nord CE2 Lite 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlus9-user 13 TP1A.220905.001 R.ec5be2-5994_493 release-keys" \
+    PRIVATE_BUILD_DESC="CPH2381-user 13 TP1A.220905.001 S.202302091900 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := OnePlus/OnePlus9/OnePlus9:13/TP1A.220905.001/R.ec5be2-5994_493:user/release-keys
+BUILD_FINGERPRINT := OnePlus/CPH2381/OP535DL1:13/TP1A.220905.001/S.202302091900:user/release-keys
